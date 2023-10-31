@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Resumo das Aulas de HTML</title>
+    </head>
+    <body>
+        <h1>Resumo das Aulas de HTML</h1>
+        <hr>
+        <h2>HTML Básico - DIO</h2>
+        <h3>Índice de Aulas</h3>
+        <ul>
+            <li><a href="#ferramentas">Ferramentas Utilizadas</a></li>
+            <li><a href="#estrutura"></a>Estrutura Básica HTML</li>
+            <li><a href="#tags"></a>Falando Sobre Tags</li>
+            <li><a href="atributos"></a>Atributos das Tags</li>
+            <li><a href="textos"></a>Textos</li>
+            <li><a href="listas"></a>Listas Ordenadas e Não Ordenadas</li>
+            <li><a href=""></a></li>
+        </ul>
+        <h2 id="ferramenta">Ferramentas Utilizadas</h2>
+        <p>Para o bom andamento do estudo sobre HTML utilizamos a ferramenta Visual Studio Code, juntamente com o inspetor de elementos do Google Chrome.</p>
+        <h2 id="estrutura">Estrutura Básica HTML</h2>
+            <p>Todas as tags html devem estar entre <small><></small>. As tags principais do código são respectivamente: <mark>html, head, title, body</mark>. </p>
+        <h2 id="tags">Falando Sobre Tags</h2>
+            <p>Quase todas as tags devem ser fechadas com /.</p>
+            <p><strong>strong - Negrito</strong></p>
+            <p><i>i - italico</i></p>
+            <p>sup - sobrescrito<sup>2</sup></p>
+            <p><sub>sub - subscrito</sub></p>
+            <p><blockquote>Usamos <strong>blockquote</strong> para fazer citações</blockquote></p>
+            <p>Algumas tags não tem tag de fechamento com a /, um exemplo é o <strong>input</strong></p>
+        <h2 id="atributos">Atributos das Tags</h2>
+            <p>Atributos são propriedades das tags. Alguns exemplos de atributos são: <strong>id, style, type</strong>.</p>
+        <h2 id="textos">Textos</h2>
+            <p>Os textos tem algumas tags específicas. Alguns exemplos são as tags <strong>h1,h2,h3,h4,h5,h6</strong> que se referem a títulos. A tag <strong>p</strong> que se refere a parágrafo. </p>
+            <p><font size="30">Utilizamos a tag <strong>font</strong> com o atributo <strong>size</strong> para determinar o tamanho da fonte, no caso 30.</font></p>
+            <p>A tag <strong>del</strong> é usada para identificar um texto que foi excluido de um documento, <del>mas continua mostrando no histórico.</del></p>
+        <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2>
+            <p>Para as listas ordenadas usamos a tag <strong>ol</strong> seguida da tag <strong>li</strong>. Já para as listas não ordenadas usamos a tag <strong>ul</strong> também seguida da tag <strong>li</strong>.</p>
+        <h2 id="links">Links</h2>
+            <p>Para criar links usamos a tag <strong>a href</strong> seguida do link.</p>
+
+    </body>
+</html>
